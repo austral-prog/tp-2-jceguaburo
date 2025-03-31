@@ -1,7 +1,10 @@
 def earth():
-    x = "Bangladesh"
-    y = "Barbados"
-    print(f"The result of {x} comes first in the dictionary than {y} is {y>x}" )
-    print(f"The result of {y} comes first in the dictionary than {x} is {x>y}" )
-earth()
+    country1 = "Bangladesh"
+    country2 = "Barbados"
+
+    result1 = country1 < country2
+    result2 = country2 < country1
+
+    print(f"The result of {country1} comes first in the dictionary than {country2} is {result1}.")
+    print(f"The result of {country2} comes first in the dictionary than {country1} is {result2}.")
     
