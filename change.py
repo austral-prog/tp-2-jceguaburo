@@ -1,7 +1,4 @@
 def change(): 
-    gasto: 23.75
-    Dinero_recibido: 100
-    
     Pesos: 76
     Centavos: 25
     
@@ -17,4 +14,3 @@ def change():
     print("Vuelto\n")
     print(f"Pesos:\n{pesos}")
     print(f"Centavos:\n{centavos}") 
-change()
